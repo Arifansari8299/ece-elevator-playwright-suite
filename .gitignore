@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest & Test Execution Caches
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+
+# Playwright Test Artifacts, Traces & Reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Local Test Reports and Logs
+reports/*.html
+reports/*.xml
+*.log
+
+# Temporary Scratch Scripts
+scratch*.py
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
